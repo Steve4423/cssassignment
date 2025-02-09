@@ -1,0 +1,61 @@
+/* Global Styles */
+body {
+    background-color: #A6A9C7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Georgia", serif;
+}
+
+/* Card Container */
+.card {
+    background: white;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+}
+
+/* Badge */
+.badge {
+    background-color: #F8E08E;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 0.9em;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+/* Image Container */
+.image-container img {
+    width: 100%;
+    display: block;
+}
+
+/* Content */
+.content {
+    padding: 20px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 1.3em;
+}
+
+.series {
+    font-size: 0.8em;
+    color: gray;
+    font-weight: normal;
+}
+
+p {
+    font-size: 0.9em;
+    color: #333;
+    line-height: 1.4;
+}
